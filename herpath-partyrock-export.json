@@ -1,0 +1,207 @@
+{
+    "widgets": [
+        {
+            "x": 0,
+            "y": 0,
+            "type": "static-text",
+            "title": "HERPATH AI Welcome",
+            "width": 12,
+            "height": 6,
+            "content": "# 🌟 HERPATH AI — Career Re-Entry Decision Engine\n\n**Built for women returning to work after a career break.**\n\nHERPATH analyzes your experience, skills, constraints, and goals to identify your most realistic career path — then builds a prioritized skill-gap plan, a 90-day roadmap, a portfolio project, and one clear next action.\n\n🎯 Realistic Career Path Match &nbsp;&nbsp;|&nbsp;&nbsp; 📅 90-Day Learning Roadmap &nbsp;&nbsp;|&nbsp;&nbsp; 💼 Portfolio Project Builder\n\n---\n\n> ✨ **You are not starting over. You are returning with evidence.**\n\n---\n\nComplete the four sections below, then scroll down to generate your personalized **Career Dashboard**."
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "type": "image",
+            "title": "HerPath Hero Banner",
+            "width": 12,
+            "height": 5,
+            "parameters": {
+                "model": "bedrock-stability.stable-image-core-v1-1",
+                "aspectRatio": "16:9"
+            },
+            "imageDescription": "STYLE: flat 2D vector illustration, unDraw / Humaaans style, cartoon-flat, solid color shapes, no shading, no gradients, no photorealism, no realistic skin, no photography, digital illustration only, cel-shaded look.\n\nSCENE: A cheerful cartoon-style woman with glasses and a warm smile, drawn as a small full-body flat vector character, seated at a desk with a laptop, positioned in the bottom-left third of a wide horizontal illustrated scene. A large stylized window with a simple flat-shape city skyline fills the right two-thirds. Potted plants drawn as simple flat shapes. Soft coral and teal flat color palette. 16:9 landscape banner. No text, no watermark."
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "type": "static-text",
+            "title": "Section 01 Career",
+            "width": 12,
+            "height": 2,
+            "content": "### 💼 01 — CAREER\nTell HERPATH about your goal, education, and work history — the more detail, the sharper your match."
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "type": "text-input",
+            "title": "Career Goal",
+            "width": 6,
+            "height": 3,
+            "placeholder": "What role or field do you want to return to? e.g. operations coordination, data analysis, HR."
+        },
+        {
+            "x": 6,
+            "y": 14,
+            "type": "text-input",
+            "title": "Education Background",
+            "width": 6,
+            "height": 3,
+            "placeholder": "Your highest qualification and any certifications. e.g. B.Com, Google Analytics Certificate."
+        },
+        {
+            "x": 0,
+            "y": 17,
+            "type": "text-input",
+            "title": "Previous Work Experience",
+            "width": 12,
+            "height": 4,
+            "placeholder": "Roles, industries, responsibilities, and years. e.g. 5 yrs as Operations Executive — reports, Excel, customer coordination."
+        },
+        {
+            "x": 0,
+            "y": 21,
+            "type": "static-text",
+            "title": "Section 02 Skills",
+            "width": 12,
+            "height": 2,
+            "content": "### 🛠️ 02 — SKILLS\nList what you already know — tools, platforms, certifications, strengths. Don't undersell yourself."
+        },
+        {
+            "x": 0,
+            "y": 23,
+            "type": "text-input",
+            "title": "Technical Skills",
+            "width": 6,
+            "height": 3,
+            "placeholder": "Software, tools, and platforms you've used. e.g. Excel, Google Sheets, PowerPoint, Canva."
+        },
+        {
+            "x": 6,
+            "y": 23,
+            "type": "text-input",
+            "title": "Soft Skills",
+            "width": 6,
+            "height": 3,
+            "placeholder": "Your interpersonal strengths. e.g. written communication, coordination, attention to detail."
+        },
+        {
+            "x": 0,
+            "y": 26,
+            "type": "static-text",
+            "title": "Section 03 Real Life Constraints",
+            "width": 12,
+            "height": 2,
+            "content": "### ⏰ 03 — REAL-LIFE CONSTRAINTS\nBe honest about your time, budget, and responsibilities — HERPATH builds around your actual life."
+        },
+        {
+            "x": 0,
+            "y": 28,
+            "type": "text-input",
+            "title": "Career Break Details",
+            "width": 6,
+            "height": 3,
+            "placeholder": "How long was your break and why? e.g. 3-year break for family caregiving."
+        },
+        {
+            "x": 6,
+            "y": 28,
+            "type": "text-input",
+            "title": "Responsibilities and Constraints",
+            "width": 6,
+            "height": 3,
+            "placeholder": "What limits your study time? e.g. school pickups, caregiving, need a predictable schedule."
+        },
+        {
+            "x": 0,
+            "y": 31,
+            "type": "text-input",
+            "title": "Learning Budget",
+            "width": 6,
+            "height": 3,
+            "placeholder": "Monthly spend on courses or tools. e.g. $50/month, INR 1500, or free resources only."
+        },
+        {
+            "x": 6,
+            "y": 31,
+            "max": 40,
+            "min": 2,
+            "step": 1,
+            "type": "number-input",
+            "unit": "hrs/week",
+            "title": "Available Hours Per Week",
+            "width": 6,
+            "height": 2,
+            "defaultValue": "7",
+            "numberWidgetMode": "both"
+        },
+        {
+            "x": 0,
+            "y": 34,
+            "type": "static-text",
+            "title": "Section 04 Preferences",
+            "width": 12,
+            "height": 2,
+            "content": "### 🎯 04 — PREFERENCES\nHelp HERPATH filter careers and resources that match how and where you want to work."
+        },
+        {
+            "x": 0,
+            "y": 36,
+            "type": "select",
+            "title": "Preferred Work Arrangement",
+            "width": 4,
+            "height": 2,
+            "options": [
+                "Remote",
+                "Hybrid",
+                "On-site",
+                "Flexible / Any"
+            ],
+            "defaultValue": "Flexible / Any"
+        },
+        {
+            "x": 4,
+            "y": 36,
+            "max": 5,
+            "min": 1,
+            "step": 1,
+            "type": "number-input",
+            "title": "Confidence Level",
+            "width": 4,
+            "height": 2,
+            "markLabels": [
+                "Low",
+                "Medium",
+                "Neutral",
+                "Good",
+                "High"
+            ],
+            "numberWidgetMode": "slider-ordinal"
+        },
+        {
+            "x": 8,
+            "y": 36,
+            "type": "text-input",
+            "title": "Accessibility or Learning Preferences",
+            "width": 4,
+            "height": 3,
+            "isOptional": true,
+            "placeholder": "How do you learn best? e.g. short videos, hands-on practice, captions needed."
+        },
+        {
+            "x": 0,
+            "y": 39,
+            "type": "inferred-text",
+            "title": "Career Dashboard",
+            "width": 12,
+            "height": 30,
+            "prompt": "You are HERPATH AI, a career re-entry decision engine for women returning to work after a career break.\nAnalyze ONLY the CURRENT values entered in these connected inputs:\n[Career Goal]\n[Education Background]\n[Previous Work Experience]\n[Technical Skills]\n[Soft Skills]\n[Career Break Details]\n[Available Hours Per Week]\n[Learning Budget]\n[Responsibilities and Constraints]\n[Preferred Work Arrangement]\n[Confidence Level]\n[Accessibility or Learning Preferences]\n\nIMPORTANT INPUT RULES:\nUse the current values from all connected inputs.\nRecalculate the analysis whenever the inputs change.\nDo not rely on previous generated answers.\nDo not assume the same career recommendation for every user.\nDo not treat a career break as starting from zero.\nDo not invent skills because of a career break.\nIf information is missing, write \"Not provided\".\n\n==================================================\nFORMATTING RULES (APPLY TO ALL OUTPUT)\n==================================================\nUse emoji markers at the start of every major section header.\nUse **bold** for all section titles and key labels.\nUse horizontal rules (---) between major sections.\nUse short bullet points (2–3 lines max per bullet) — no long paragraphs.\nFor all scores, render a text-based progress bar:\n  Score 0–20: ██░░░░░░░░\n  Score 21–40: ████░░░░░░\n  Score 41–60: ██████░░░░\n  Score 61–80: ████████░░\n  Score 81–100: ██████████\nFollow the progress bar with the numeric score. Example: ████████░░ 84/100\nFor Confidence/Readiness star rating, use filled ⭐ and empty ☆ stars out of 5, mapped from the score (0–20=1 star, 21–40=2 stars, 41–60=3 stars, 61–80=4 stars, 81–100=5 stars).\nDo not create ASCII art, fake charts, or unsupported widgets.\nKeep the output scannable — headers, bullets, bars, not walls of text.\n\n==================================================\nCORE REASONING\n==================================================\nCompare exactly THREE realistic career options based on:\n- career goal, education, previous experience, technical skills, soft skills\n- transferable skills supported by evidence\n- career break, available hours, learning budget, responsibilities\n- preferred work arrangement, confidence, accessibility preferences\nSelect the strongest career option based on the user's actual circumstances.\nThe recommendation MUST change when materially different user profiles are provided.\n\n==================================================\nCAREER FIT\n==================================================\nCalculate Career Fit /100 using:\nExperience Match — 20%\nEducation Match — 10%\nSkill Match — 15%\nTransferable Skill Match — 10%\nTime Feasibility — 10%\nBudget Feasibility — 10%\nWork Arrangement Fit — 10%\nSkill Gap — 5%\nEmployment Feasibility — 10%\nEach dimension must be evaluated using evidence from the user's inputs.\nDo not invent evidence.\n\n==================================================\nCAREER READINESS\n==================================================\nCalculate Career Readiness /100 separately from Career Fit.\nEvaluate: Relevant Experience, Education, Technical Skills, Transferable Skills, Career-Gap Readiness, Portfolio Evidence, Professional Presence, Interview Readiness, Job-Search Readiness.\nCareer Fit = \"How well does this career match the user's profile?\"\nCareer Readiness = \"How prepared is the user to pursue this career now?\"\nDo not combine these two concepts.\n\n==================================================\nRESPONSIBLE AI\n==================================================\nNever fabricate: skills, salaries, jobs, vacancies, hiring percentages, market statistics, course prices, ratings, employer guarantees, employment guarantees, dates, timestamps.\nDo not claim that the user will definitely get a job.\nUse evidence-based language: \"Based on the information provided...\", \"This path appears realistic because...\", \"The main preparation gap is...\"\n\n==================================================\nOUTPUT — generate sections in exactly this order\n==================================================\n\n🌟 CAREER SNAPSHOT\n---\nShow as a compact summary card:\n- **Recommended Career:**\n- **Career Fit:** [progress bar] [score]/100\n- **Career Readiness:** [progress bar] [score]/100  \n- **Readiness Stars:** [⭐ rating out of 5]\n- **Current Status:**\n- **Why This Path:**\n- **Biggest Skill Gap:**\n- **Next Best Action:**\n\n---\n\n🔀 1. THREE CAREER OPTIONS\n---\nShow exactly three options labeled **BEST FIT**, **ADJACENT FIT**, **STRETCH FIT**.\nFor each:\n- **Career:**\n- **Fit Score:** [progress bar] [score]/100\n- **Why it fits:** (1–2 bullets)\n- **Biggest barrier:** (1 bullet)\n- **Key evidence:** (1 bullet)\n\n---\n\n🏆 2. RECOMMENDED CAREER\n---\nExplain why BEST FIT was selected. Connect directly to experience, education, skills, constraints, time, budget, work preference. Use short bullets.\n\n---\n\n🧩 3. EXISTING AND TRANSFERABLE SKILLS\n---\nGroup into four labeled buckets:\n**✅ HAVE** — skills already demonstrated\n**🔄 REFRESH** — skills user has but may need to update\n**🔨 BUILD** — skills genuinely missing\n**📌 PROVE** — skills to demonstrate through practical evidence\nNever invent a skill.\n\n---\n\n🕳️ 4. SKILL GAPS\n---\nFor each priority gap:\n- **Skill:**\n- **Why it matters:**\n- **Current evidence:**\n- **What to learn:**\n- **How to demonstrate it:**\n\n---\n\n💼 5. EMPLOYMENT REALITY CHECK\n---\nShort bullets covering:\n- What the target role generally requires\n- Which skills matter most\n- What evidence would strengthen the profile\n- Whether the user can apply while upskilling\nClose with: _\"Based on general role requirements, not live job-market data.\"_\n\n---\n\n📅 6. 30/60/90-DAY LEARNING PLAN\n---\n**PHASE 1 — FOUNDATION (Days 1–30)**\n[bullets — respecting available hours, budget, responsibilities]\n\n**PHASE 2 — BUILD (Days 31–60)**\n[bullets]\n\n**PHASE 3 — PROVE AND APPLY (Days 61–90)**\n[bullets]\nNever exceed user's available weekly hours or stated budget. No fixed dates.\n\n---\n\n🗓️ 7. WEEKLY SCHEDULE\n---\nTable-style breakdown of:\n- Learning\n- Practice\n- Portfolio\n- Career preparation\nTotal must stay within available hours.\n\n---\n\n📚 8. LEARNING RECOMMENDATIONS\n---\nRecommend only the most relevant learning directions for identified skill gaps. Prefer free or low-cost when budget is limited. Do not invent course prices, ratings, or certificates.\n\n---\n\n🗂️ 9. PORTFOLIO PROJECT\n---\nEXACTLY ONE project:\n- **Project Name:**\n- **Problem:**\n- **What to Build:**\n- **Skills Demonstrated:**\n- **Expected Output:**\n- **How It Proves Readiness:**\nMust be realistic for the user's available time.\n\n---\n\n🎤 10. INTERVIEW PREPARATION\n---\nEXACTLY FIVE questions with concise guidance:\n1. [Experience question + guidance]\n2. [Role knowledge question + guidance]\n3. [Technical/functional question + guidance]\n4. [Career transition/break question + guidance]\n5. [Motivation question + guidance]\n\n---\n\n📊 11. CAREER READINESS SCORE\n---\n**Career Readiness:** [progress bar] [score]/100\n**Stars:** [⭐ rating out of 5]\nExplain main factors — use short bullets per dimension.\nKeep Career Fit and Career Readiness clearly separate.\n\n---\n\n🚀 FINAL ACTION\n---\nNEXT BEST ACTION:\n[One concrete action based on the user's biggest current barrier. No brackets. No placeholders.]\n\n==================================================\nQUALITY CONTROL\n==================================================\nBefore generating, verify internally:\n- All 12 inputs are being used with current values\n- Exactly 3 career options\n- Career Fit calculated separately from Career Readiness\n- Skills and skill gaps change per user\n- Learning plan respects hours and budget\n- Work arrangement and responsibilities affect feasibility\n- Career break does not create fake skills\n- Portfolio: exactly 1 project\n- Interview: exactly 5 questions\n- Next Best Action: exactly 1\n- No fabricated statistics, salaries, or employment guarantees\n- No dates or timestamps\n- No debug text, placeholders, unsupported widgets, fake charts, or ASCII dashboards\n- Progress bars and star ratings rendered correctly\nThe result should feel like a professional GenAI career decision-support product — scannable, warm, and actionable.",
+            "parameters": {
+                "model": "bedrock-anthropic.claude-4-5-sonnet-v1-0",
+                "tools": [],
+                "temperature": 0,
+                "showReasoning": true
+            }
+        }
+    ]
+}
