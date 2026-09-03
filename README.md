@@ -68,20 +68,6 @@ A single AI-generated **Career Dashboard** widget synthesizes all inputs into an
 
 ---
 
-## 📸 Screenshots
-
-| Section 01 — Career | Flow Diagram |
-|---|---|
-| ![Section 01](screenshots/Screenshot_2026-09-02_190829.png) | ![Flow Diagram](screenshots/Screenshot_2026-09-02_192648.png) |
-
-## 🏅 Proof of Participation
-
-| Certificate of Excellence | Guinness World Records Card |
-|---|---|
-| ![Certificate](screenshots/Screenshot_2026-09-02_151149.png) | ![Guinness Record Card](screenshots/Screenshot_2026-09-02_150727.png) |
-
----
-
 ## 🙋‍♀️ About
 
 Built by **Gavara Neha**, a third-year B.Tech AI & ML student at Aditya University.
