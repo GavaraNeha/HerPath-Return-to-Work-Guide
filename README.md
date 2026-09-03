@@ -1,4 +1,3 @@
-
 # HerPath: Return to Work Guide 🌟
 
 **A GenAI-powered career re-entry decision engine, built for women returning to work after a career break.**
@@ -47,6 +46,10 @@ Women returning to work after a career break — whether for caregiving, family 
 
 Built entirely on **AWS PartyRock**, powered by **Claude Sonnet** as the underlying LLM.
 
+### App Flow
+
+![Workflow](workflow.png)
+
 ### Input Sections
 | Section | What It Captures |
 |---|---|
@@ -56,7 +59,12 @@ Built entirely on **AWS PartyRock**, powered by **Claude Sonnet** as the underly
 | 🎯 **04 — Preferences** | Preferred work arrangement, confidence level, accessibility/learning preferences |
 
 ### Output
+
 A single AI-generated **Career Dashboard** widget synthesizes all inputs into an actionable, personalized roadmap covering all 11 output sections listed above.
+
+| Career Dashboard | Career Dashboard (continued) |
+|---|---|
+| ![Dashboard](dashboard.png) | ![Dashboard 2](dashboard_2.png) |
 
 ---
 
@@ -65,6 +73,20 @@ A single AI-generated **Career Dashboard** widget synthesizes all inputs into an
 - **Platform:** AWS PartyRock
 - **AI Model:** Claude Sonnet (Anthropic), via PartyRock's built-in LLM integration
 - **Widgets:** 12 input widgets + 1 AI-generated Career Dashboard widget + 1 AI-generated hero banner image widget
+
+---
+
+## 📄 App Configuration
+
+The full PartyRock app export — including every widget's layout, prompt, and the complete Career Dashboard generation logic — is available in [`herpath-partyrock-export.json`](herpath-partyrock-export.json).
+
+---
+
+## 🏅 Proof of Participation
+
+| Certificate of Excellence | Guinness World Records Card |
+|---|---|
+| ![Certificate](Aspire_for_her_excellence.png) | ![Guinness Record Card](Aspireforher_Guinness.png) |
 
 ---
 
@@ -79,4 +101,3 @@ Built by **Gavara Neha**, a third-year B.Tech AI & ML student at Aditya Universi
 ## 🏷️ Tags
 
 `#WomenWhoMaster` `#AspireForHer` `#Logitech` `#GenAI` `#AWSPartyRock` `#WomenInTech` `#CareerReEntry`
-
